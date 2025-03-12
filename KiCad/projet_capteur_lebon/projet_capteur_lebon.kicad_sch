@@ -3879,7 +3879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 169.8752 107.95 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 61.9252 110.49 0)
 			(effects
 				(font
@@ -4085,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 74.422 106.68 90)
 			(effects
 				(font
@@ -4234,7 +4234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 138.1252 92.71 0)
 			(effects
 				(font
@@ -4302,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 158.75 99.568 90)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 145.542 88.9 90)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "librairie_empreintes:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 48.26 100.838 90)
 			(effects
 				(font
