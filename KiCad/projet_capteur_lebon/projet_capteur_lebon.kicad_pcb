@@ -153,6 +153,8 @@
 	(net 30 "unconnected-(U1-SCL-Pad3)")
 	(net 31 "unconnected-(U1-GND-Pad1)")
 	(net 32 "unconnected-(U1-VCC-Pad2)")
+	(net 33 "unconnected-(U2-VCC-Pad2)")
+	(net 34 "unconnected-(U2-GND-Pad1)")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(locked yes)
 		(layer "F.Cu")
@@ -1535,6 +1537,211 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "librairie_empreintes:SIP-2"
+		(layer "F.Cu")
+		(uuid "75fc94e7-a1d2-4574-a4fc-b025b5ede932")
+		(at 121 97)
+		(property "Reference" "U2"
+			(at 0 1.75 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ba99a5a-370b-4c24-a72e-f88f129963a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -3.25 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7719b19-92fe-4332-942b-edd2ca40a454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -0.75 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d86877ca-5b43-4f36-aab6-4d4d13ae5bbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -0.75 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2226c5d-fa14-4539-86f0-c860f1f1b68b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/28841c16-dc4d-4b6e-8027-e45f905cbe2d")
+		(sheetname "/")
+		(sheetfile "projet_capteur_lebon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.95 -2.25)
+			(end 2.95 -2.25)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2b6c74eb-6726-4f63-aa91-32e3ad219e85")
+		)
+		(fp_line
+			(start -2.95 0.75)
+			(end -2.95 -2.25)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "ff58c40b-64df-4746-b3ef-d6dea78dca76")
+		)
+		(fp_line
+			(start 0 -2.25)
+			(end 0 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a0bace96-3f93-41d9-9a3a-8721fd314c8e")
+		)
+		(fp_line
+			(start 2.95 -2.25)
+			(end 2.95 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "94dd92ae-b8d7-4111-87f7-2f363cf5ca3d")
+		)
+		(fp_line
+			(start 2.95 0.75)
+			(end -2.95 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "5527c057-87ac-4655-a598-735b4072e546")
+		)
+		(fp_rect
+			(start -4.5 -2.5)
+			(end 4.5 2.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ecf297d7-6d14-4886-a649-0ee0d1a234fd")
+		)
+		(fp_line
+			(start -2.7 -2)
+			(end 2.7 -2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd7093da-1a46-44d1-b7e8-c0659b33d95a")
+		)
+		(fp_line
+			(start -2.7 0.5)
+			(end -2.7 -2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "7516324e-21ef-46d6-b859-9cc855f8da97")
+		)
+		(fp_line
+			(start 2.7 -2)
+			(end 2.7 0.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "88557bcb-e750-4c3f-a6d8-f5b14cb78467")
+		)
+		(fp_line
+			(start 2.7 0.5)
+			(end -2.7 0.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce09f81b-9edb-4a0a-bfa3-e7428cf52f15")
+		)
+		(fp_text user "FLEXS"
+			(at -2.5 2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "26268be4-7889-4c5a-81b8-3e6000333ebf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -1.45 -0.75)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "unconnected-(U2-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "input")
+			(uuid "c7064bc7-5a96-44b7-ba1d-112543210ab1")
+		)
+		(pad "2" thru_hole circle
+			(at 1.45 -0.75)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 33 "unconnected-(U2-VCC-Pad2)")
+			(pinfunction "VCC")
+			(pintype "input")
+			(uuid "111f947f-edbe-4bbf-bd39-f8a8f8b03703")
+		)
+		(embedded_fonts no)
+		(model "C:/Users/clara/OneDrive/Documents/INSA/4A/Capteurs/2024-2025-4GP-Anatolie-Clara/KiCad/Modele 3D/FS-L-0095-103-ST - Assembly.stp"
+			(offset
+				(xyz 0 1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
 		(locked yes)
 		(layer "F.Cu")
@@ -2050,17 +2257,6 @@
 		(layer "Dwgs.User")
 		(uuid "556cf23c-299b-4f67-9a25-a41fb8b5982d")
 	)
-	(gr_rect
-		(start 162.357 68.25)
-		(end 167.437 75.87)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "58ce2ea3-aa66-45fe-b5e1-d11ebd935d6a")
-	)
 	(gr_line
 		(start 98.095 87.935)
 		(end 111.43 87.935)
@@ -2243,17 +2439,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ef0ee1ce-7ed7-4e9c-abb9-dc0926a9353e")
-	)
-	(gr_text "ICSP"
-		(at 164.897 72.06 90)
-		(layer "Dwgs.User")
-		(uuid "8a0ca77a-5f97-4d8b-bfbe-42a4f0eded41")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(embedded_fonts no)
 )
