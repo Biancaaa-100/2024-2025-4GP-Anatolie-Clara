@@ -1447,6 +1447,200 @@
 			)
 		)
 	)
+	(footprint "librairie_empreintes:SIP-2"
+		(layer "F.Cu")
+		(uuid "64e27d18-7c7a-48da-96dc-869bc7932009")
+		(at 121.8 98.25)
+		(property "Reference" "U2"
+			(at 0 1.75 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6dc2856a-1402-4c23-854d-9edbdf2dbd39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -3.25 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "706a1dfc-c040-482f-af99-f42b42e0c92f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -0.75 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee65b447-d62d-4ffd-b4e7-95c93921f241")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -0.75 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ce70f99-8aad-4bb4-ae19-74de3afe84ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/28841c16-dc4d-4b6e-8027-e45f905cbe2d")
+		(sheetname "/")
+		(sheetfile "projet_capteur_lebon.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -2.95 -2.25)
+			(end 2.95 -2.25)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "98c0ad42-15ac-4c2f-8ae2-ddb04312b311")
+		)
+		(fp_line
+			(start -2.95 0.75)
+			(end -2.95 -2.25)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d9d6ba74-4d0f-414b-aafc-67a341f52723")
+		)
+		(fp_line
+			(start 0 -2.25)
+			(end 0 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bd20c96e-9308-4250-9580-a657dfac3fdd")
+		)
+		(fp_line
+			(start 2.95 -2.25)
+			(end 2.95 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "24d413ab-c362-4fb8-ad6b-84c72af421f2")
+		)
+		(fp_line
+			(start 2.95 0.75)
+			(end -2.95 0.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "1a2fa30e-1c8d-422e-bc28-21b110a51c16")
+		)
+		(fp_line
+			(start -2.7 -2)
+			(end 2.7 -2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "0a15c635-7655-4687-bd89-7f77545d3220")
+		)
+		(fp_line
+			(start -2.7 0.5)
+			(end -2.7 -2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "0bfbec3a-0cab-4339-be85-42c5b49871f3")
+		)
+		(fp_line
+			(start 2.7 -2)
+			(end 2.7 0.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "f1152bf2-d628-4aec-947f-42e05ce182fe")
+		)
+		(fp_line
+			(start 2.7 0.5)
+			(end -2.7 0.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea264524-0a17-40d8-8345-b5f5f31a6840")
+		)
+		(fp_text user "FS"
+			(at -1 0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "65123de3-b615-4ae4-a172-82c1d3396552")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -1.45 -0.75)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "unconnected-(U2-GND-Pad1)")
+			(pinfunction "GND")
+			(pintype "input")
+			(uuid "1c1a6f93-9d0e-4132-bff5-5999e8f949f2")
+		)
+		(pad "2" thru_hole circle
+			(at 1.2 -0.75)
+			(size 2 2)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 33 "unconnected-(U2-VCC-Pad2)")
+			(pinfunction "VCC")
+			(pintype "input")
+			(uuid "5b3881bc-7259-4530-80bb-d8d87850375a")
+		)
+		(embedded_fonts no)
+		(model "C:/Users/clara/OneDrive/Documents/INSA/4A/Capteurs/2024-2025-4GP-Anatolie-Clara/KiCad/Modele 3D/FS-L-0095-103-ST - Assembly.stp"
+			(offset
+				(xyz 0 1 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
 		(locked yes)
 		(layer "F.Cu")
@@ -1536,211 +1730,6 @@
 			(uuid "356b079e-5793-4aee-b44c-295012cd0198")
 		)
 		(embedded_fonts no)
-	)
-	(footprint "librairie_empreintes:SIP-2"
-		(layer "F.Cu")
-		(uuid "75fc94e7-a1d2-4574-a4fc-b025b5ede932")
-		(at 121 97)
-		(property "Reference" "U2"
-			(at 0 1.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3ba99a5a-370b-4c24-a72e-f88f129963a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 -3.25 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7719b19-92fe-4332-942b-edd2ca40a454")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -0.75 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d86877ca-5b43-4f36-aab6-4d4d13ae5bbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 -0.75 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2226c5d-fa14-4539-86f0-c860f1f1b68b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/28841c16-dc4d-4b6e-8027-e45f905cbe2d")
-		(sheetname "/")
-		(sheetfile "projet_capteur_lebon.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -2.95 -2.25)
-			(end 2.95 -2.25)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "2b6c74eb-6726-4f63-aa91-32e3ad219e85")
-		)
-		(fp_line
-			(start -2.95 0.75)
-			(end -2.95 -2.25)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "ff58c40b-64df-4746-b3ef-d6dea78dca76")
-		)
-		(fp_line
-			(start 0 -2.25)
-			(end 0 0.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a0bace96-3f93-41d9-9a3a-8721fd314c8e")
-		)
-		(fp_line
-			(start 2.95 -2.25)
-			(end 2.95 0.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "94dd92ae-b8d7-4111-87f7-2f363cf5ca3d")
-		)
-		(fp_line
-			(start 2.95 0.75)
-			(end -2.95 0.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "5527c057-87ac-4655-a598-735b4072e546")
-		)
-		(fp_rect
-			(start -4.5 -2.5)
-			(end 4.5 2.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ecf297d7-6d14-4886-a649-0ee0d1a234fd")
-		)
-		(fp_line
-			(start -2.7 -2)
-			(end 2.7 -2)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "fd7093da-1a46-44d1-b7e8-c0659b33d95a")
-		)
-		(fp_line
-			(start -2.7 0.5)
-			(end -2.7 -2)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "7516324e-21ef-46d6-b859-9cc855f8da97")
-		)
-		(fp_line
-			(start 2.7 -2)
-			(end 2.7 0.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "88557bcb-e750-4c3f-a6d8-f5b14cb78467")
-		)
-		(fp_line
-			(start 2.7 0.5)
-			(end -2.7 0.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "ce09f81b-9edb-4a0a-bfa3-e7428cf52f15")
-		)
-		(fp_text user "FLEXS"
-			(at -2.5 2.5 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "26268be4-7889-4c5a-81b8-3e6000333ebf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify left bottom)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -1.45 -0.75)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 34 "unconnected-(U2-GND-Pad1)")
-			(pinfunction "GND")
-			(pintype "input")
-			(uuid "c7064bc7-5a96-44b7-ba1d-112543210ab1")
-		)
-		(pad "2" thru_hole circle
-			(at 1.45 -0.75)
-			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 33 "unconnected-(U2-VCC-Pad2)")
-			(pinfunction "VCC")
-			(pintype "input")
-			(uuid "111f947f-edbe-4bbf-bd39-f8a8f8b03703")
-		)
-		(embedded_fonts no)
-		(model "C:/Users/clara/OneDrive/Documents/INSA/4A/Capteurs/2024-2025-4GP-Anatolie-Clara/KiCad/Modele 3D/FS-L-0095-103-ST - Assembly.stp"
-			(offset
-				(xyz 0 1.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
 		(locked yes)
