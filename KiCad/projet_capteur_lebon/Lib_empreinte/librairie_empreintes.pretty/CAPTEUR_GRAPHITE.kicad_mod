@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at -0.77 -3.23 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ba02238f-3a19-4297-9d8d-7db597740e1a")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "CAPTEUR_GRAPHITE"
 		(at -0.77 -8.77 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5bfdd605-4431-45b2-99b2-954bf32cf3a9")
 		(effects
 			(font
@@ -100,17 +102,6 @@
 		(layer "F.SilkS")
 		(uuid "383c3b84-3f1a-4a27-a32b-2b4235279e37")
 	)
-	(fp_rect
-		(start -12 -9.5)
-		(end 9.5 23)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "faf934f0-64ce-460e-9b4d-e6cb14177719")
-	)
 	(fp_line
 		(start -3.29 -7.52)
 		(end 1.75 -7.52)
@@ -152,7 +143,7 @@
 		(uuid "709de826-6f0f-498b-a700-24094cb42271")
 	)
 	(fp_text user "CAPT_GRAPHITE"
-		(at -6 17.5 0)
+		(at -6 -8.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b33e42f1-f32d-4f84-a22b-b49a6e38c587")
